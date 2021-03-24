@@ -1,5 +1,10 @@
+/**
+ * @author zeldn
+ *
+ */
 public class SharedData 
 {
+	int x;
 	private int [] array;
 	private boolean [] winArray;
 	private boolean flag;
@@ -12,6 +17,9 @@ public class SharedData
 		int z = 6;
 	}
 
+	/**
+	 * @return
+	 */
 	/**
 	 * @return
 	 */
