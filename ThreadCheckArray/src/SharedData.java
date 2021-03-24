@@ -9,6 +9,7 @@ public class SharedData
 		
 		this.array = array;
 		this.b = b;
+		int z = 6;
 	}
 
 	/**
