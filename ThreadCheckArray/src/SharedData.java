@@ -4,7 +4,7 @@
  */
 public class SharedData 
 {
-	int x;
+	int y=7;
 	private int [] array;
 	private boolean [] winArray;
 	private boolean flag;
