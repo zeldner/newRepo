@@ -4,17 +4,15 @@
  */
 public class SharedData 
 {
-	int y=7;
 	private int [] array;
+	int x;
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
-	int x =878;
 	public SharedData(int[] array, int b) {
 		
 		this.array = array;
 		this.b = b;
-		int z = 6;
 	}
 
 	/**
@@ -28,6 +26,10 @@ public class SharedData
 		return winArray;
 	}
 
+	/**
+	 * @param winArray
+	 * 
+	 */
 	public void setWinArray(boolean [] winArray) 
 	{
 		this.winArray = winArray;
