@@ -5,10 +5,10 @@
 public class SharedData 
 {
 	private int [] array;
-	int x;
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
+	int x = 9;
 	public SharedData(int[] array, int b) {
 		
 		this.array = array;
@@ -35,6 +35,9 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
+	/**
+	 * @return
+	 */
 	public int[] getArray() 
 	{
 		return array;
